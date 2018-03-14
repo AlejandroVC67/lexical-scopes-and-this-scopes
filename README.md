@@ -84,13 +84,13 @@ Well-defined set of rules for storing variables in some location, and for findin
 - What it is? How can i know the value?
  - Determing the this binding for and executing function
  - Four rules can be applied to the call-site, in this order of precedence:
-  - 1. Called with new? use the newly constructred object
+  1. Called with new? use the newly constructred object
   - CODE
-  - 2. Called with call, apply or bind use the specified object
+  2. Called with call, apply or bind use the specified object
   - CODE 
-  - 3. Called with a context object owning the call? use the context object
+  3. Called with a context object owning the call? use the context object
   - CODE 
-  - 4. Default: Undefined in strict mode, globacl object otherwise
+  4. Default: Undefined in strict mode, globacl object otherwise
    - If you put 'use strict' that block of code will be in strict mode 
 
 
